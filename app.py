@@ -2,7 +2,6 @@
 import streamlit as st 
 import pandas as pd 
 import numpy as np
-import random    
 import matplotlib.pyplot as plt
 import plotly.express as px
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
@@ -313,4 +312,5 @@ with col2:
 
             st.session_state.current_section = sections[current_idx + 1]
             st.rerun()
+
 
